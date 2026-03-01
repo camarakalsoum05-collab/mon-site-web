@@ -1,0 +1,110 @@
+
+.photo img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.photo img{
+    height: 400px;
+    width: 300px;
+    transition: transform(0.3s) ease,box-shadow 0.3s ease; 
+    border-radius: 10px;
+}
+ h2{
+    margin-left: 35px;
+ }
+.info1 p{
+    margin-right: 250px;
+}
+ .photo1 {
+    display: flex;
+    gap: 70px;
+ }
+ .photo2{
+    display: flex;
+    gap: 70px;
+ }
+.photo3{
+    display: flex;
+    gap: 70px;
+ }
+.photo4{
+    display: flex;
+    gap: 70px;
+ }
+ .j{
+    display: flex;
+    gap: 70px;
+ }
+ .photo5{
+    display: flex;
+    gap: 70px;
+ }
+ .photo6{
+    display: flex;
+    gap: 70px;
+ }
+ .photo7{
+    display: flex;
+    gap: 70px;
+ }
+ .photo8{
+    display: flex;
+    gap: 70px;
+ }
+ p{
+   font-size: 50px;
+   font-weight: 900;
+   text-align: center;
+ }
+ 
+  
+  h1{
+   
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+
+ }
+ p{
+   font-size: 30px;
+   font-weight: 900;
+   text-align: center;
+ }
+ hr{
+   width: 50%;
+   height: 8px;
+   background-color: moccasin;
+   border-color: moccasin;
+   border-radius: 10px;
+
+ }
+ body{
+   background-color: beige;
+ }
+ .btn-fleche{
+   font-size: 50px;
+   font-weight: bold;
+ }
+
+ ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 3px 3px black;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+li:hover{
+    transform: scale(1.05);
+    transition: all 0.8s;
+    text-decoration: underline;
+}
